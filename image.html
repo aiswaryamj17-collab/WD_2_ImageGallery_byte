@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Exploring India</h1>
+        <p>Click on any image to view it larger.</p>
+    </header>
+
+    <main class="gallery-grid">
+        <div class="gallery-item">
+            <a href="#img1">
+                <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=800&q=80](https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=800&q=80" alt="Taj Mahal ">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="#img2">
+                <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=800&q=80](https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=800&q=80" alt="Kerala Backwaters)">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="#img3">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfsTPnPJTC8Q-LlzsBYIFBvcRkIfze9GyAnjNRDDzve-pVx-RaUx8r9Wb6&s=10" alt=" Pangong Lake Ladakh">
+            </a>
+        </div>
+    </main>
+
+    <div id="img1" class="lightbox">
+        <a href="#" class="close-btn">&times;</a>
+        <a href="#img3" class="prev-btn">&#10094;</a>
+        <div class="lightbox-content">
+            <img src="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80](https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80" alt="Taj Mahal">
+            <p>The stunning white marble mausoleum of the Taj Mahal glowing in the warm light of sunset.</p>
+        </div>
+        <a href="#img2" class="next-btn">&#10095;</a>
+    </div>
+
+    <div id="img2" class="lightbox">
+        <a href="#" class="close-btn">&times;</a>
+        <a href="#img1" class="prev-btn">&#10094;</a>
+        <div class="lightbox-content">
+            <img src="https://c.ndtvimg.com/2025-08/tv011i6g_kerala-backwaters_625x300_18_August_25.jpeg?im=FeatureCrop,algorithm=dnn,width=1200,height=738" alt=" Kerala Backwaters">
+            <p>A peaceful view of the lush green palm trees lining the tranquil waters of the Kerala backwaters.</p>
+        </div>
+        <a href="#img3" class="next-btn">&#10095;</a>
+    </div>
+
+    <div id="img3" class="lightbox">
+        <a href="#" class="close-btn">&times;</a>
+        <a href="#img2" class="prev-btn">&#10094;</a>
+        <div class="lightbox-content">
+            <img src="https://altitudeadventureindia.com/wp-content/uploads/2020/03/Pangong-lake-Ladakh.jpg" alt="Pangong Lake Ladakh">
+            <p>Rugged Himalayan mountain ranges towering over the striking, crystal-clear blue waters of Ladakh.</p>
+        </div>
+        <a href="#img1" class="next-btn">&#10095;</a>
+    </div>
+
+</body>
+</html>
